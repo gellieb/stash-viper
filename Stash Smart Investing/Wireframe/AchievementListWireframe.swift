@@ -20,11 +20,9 @@ class AchievementListWireframe: AchievementListWireframeProtocol {
         if let view = nav.children.first as? AchievementListViewController {
             let presenter: AchievementListPresenterProtocol & AchievementListInteractorOutputProtocol = AchievementListPresenter()
             let interactor: AchievementListInteractorInputProtocol = AchievementListInteractor()
-            let router: AchievementListWireframeProtocol = AchievementListWireframe()
             
             view.presenter = presenter
             presenter.view = view
-            presenter.router = router
             presenter.interactor = interactor
             interactor.presenter = presenter
             

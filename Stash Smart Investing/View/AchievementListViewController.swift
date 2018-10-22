@@ -23,7 +23,6 @@ class AchievementListViewController: UIViewController {
     var presenter: AchievementListPresenterProtocol?
     var achievementList: [Achievement] = []
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         presenter?.viewDidLoad()

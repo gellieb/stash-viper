@@ -23,15 +23,14 @@ protocol AchievementListInteractorInputProtocol: class {
     var presenter: AchievementListInteractorOutputProtocol? {get set}
     
     // presenter -> interactor
-    func retrieveAchievementsList()
+    func retrieveAchievementsList(fromUrl url: URL)
 }
 
 class AchievementListInteractor: AchievementListInteractorInputProtocol {
     
     weak var presenter: AchievementListInteractorOutputProtocol?
     
-    func retrieveAchievementsList() {
-        let url = Bundle.main.url(forResource: "achievements", withExtension: "json")!
+    func retrieveAchievementsList(fromUrl url: URL) {
         let data = try! Data(contentsOf: url)
         let decoder = JSONDecoder()
         

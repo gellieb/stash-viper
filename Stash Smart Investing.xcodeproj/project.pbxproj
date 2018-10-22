@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		039B6616217D6C570094A656 /* mock_achievements.json in Resources */ = {isa = PBXBuildFile; fileRef = 039B6615217D6C570094A656 /* mock_achievements.json */; };
+		039B6618217D6D560094A656 /* AchievementListPresenterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039B6617217D6D560094A656 /* AchievementListPresenterSpec.swift */; };
 		03B3765C217D47C900C32C3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B3765B217D47C900C32C3D /* AppDelegate.swift */; };
 		03B3765E217D47C900C32C3D /* AchievementListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B3765D217D47C900C32C3D /* AchievementListViewController.swift */; };
 		03B37661217D47C900C32C3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B3765F217D47C900C32C3D /* Main.storyboard */; };
 		03B37663217D47C900C32C3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03B37662217D47C900C32C3D /* Assets.xcassets */; };
 		03B37666217D47C900C32C3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B37664217D47C900C32C3D /* LaunchScreen.storyboard */; };
-		03B37671217D47CA00C32C3D /* Stash_Smart_InvestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B37670217D47C900C32C3D /* Stash_Smart_InvestingTests.swift */; };
 		03B3767D217D488000C32C3D /* AchievementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B3767C217D488000C32C3D /* AchievementCell.swift */; };
 		03B37680217D48B800C32C3D /* AchievementListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B3767F217D48B800C32C3D /* AchievementListInteractor.swift */; };
 		03B37683217D48EB00C32C3D /* AchievementListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B37682217D48EB00C32C3D /* AchievementListPresenter.swift */; };
 		03B37685217D491400C32C3D /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B37684217D491400C32C3D /* Achievement.swift */; };
 		03B37687217D493200C32C3D /* AchievementListWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B37686217D493200C32C3D /* AchievementListWireframe.swift */; };
 		03B37696217D4CAA00C32C3D /* achievements.json in Resources */ = {isa = PBXBuildFile; fileRef = 03B37695217D4CAA00C32C3D /* achievements.json */; };
+		03B37699217D52D000C32C3D /* AchievementListInteractorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B37698217D52D000C32C3D /* AchievementListInteractorSpec.swift */; };
 		338C422264BAF149C5D32D1A /* Pods_Stash_Smart_InvestingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9206F6858A5F41CDDB84E809 /* Pods_Stash_Smart_InvestingTests.framework */; };
 		66F3930A1B56015D495BA1DA /* Pods_Stash_Smart_Investing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32ACD13C184F2F41ACEF7564 /* Pods_Stash_Smart_Investing.framework */; };
 /* End PBXBuildFile section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		039B6615217D6C570094A656 /* mock_achievements.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mock_achievements.json; sourceTree = "<group>"; };
+		039B6617217D6D560094A656 /* AchievementListPresenterSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementListPresenterSpec.swift; sourceTree = "<group>"; };
 		03B37658217D47C900C32C3D /* Stash Smart Investing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stash Smart Investing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B3765B217D47C900C32C3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03B3765D217D47C900C32C3D /* AchievementListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementListViewController.swift; sourceTree = "<group>"; };
@@ -42,14 +46,14 @@
 		03B37665217D47C900C32C3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03B37667217D47C900C32C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03B3766C217D47C900C32C3D /* Stash Smart InvestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stash Smart InvestingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		03B37670217D47C900C32C3D /* Stash_Smart_InvestingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stash_Smart_InvestingTests.swift; sourceTree = "<group>"; };
 		03B37672217D47CA00C32C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03B3767C217D488000C32C3D /* AchievementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementCell.swift; sourceTree = "<group>"; };
 		03B3767F217D48B800C32C3D /* AchievementListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementListInteractor.swift; sourceTree = "<group>"; };
 		03B37682217D48EB00C32C3D /* AchievementListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementListPresenter.swift; sourceTree = "<group>"; };
 		03B37684217D491400C32C3D /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
 		03B37686217D493200C32C3D /* AchievementListWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementListWireframe.swift; sourceTree = "<group>"; };
-		03B37695217D4CAA00C32C3D /* achievements.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = achievements.json; sourceTree = "<group>"; };
+		03B37695217D4CAA00C32C3D /* achievements.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = achievements.json; path = "/Users/angelchang/code/Stash Smart Investing/Stash Smart Investing/Supporting Files/achievements.json"; sourceTree = "<absolute>"; };
+		03B37698217D52D000C32C3D /* AchievementListInteractorSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementListInteractorSpec.swift; sourceTree = "<group>"; };
 		214EFB502EDCF0A45F7DCAA7 /* Pods-Stash Smart Investing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stash Smart Investing.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stash Smart Investing/Pods-Stash Smart Investing.release.xcconfig"; sourceTree = "<group>"; };
 		32ACD13C184F2F41ACEF7564 /* Pods_Stash_Smart_Investing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stash_Smart_Investing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9206F6858A5F41CDDB84E809 /* Pods_Stash_Smart_InvestingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stash_Smart_InvestingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,8 +122,9 @@
 		03B3766F217D47C900C32C3D /* Stash Smart InvestingTests */ = {
 			isa = PBXGroup;
 			children = (
-				03B37670217D47C900C32C3D /* Stash_Smart_InvestingTests.swift */,
 				03B37672217D47CA00C32C3D /* Info.plist */,
+				03B37698217D52D000C32C3D /* AchievementListInteractorSpec.swift */,
+				039B6617217D6D560094A656 /* AchievementListPresenterSpec.swift */,
 			);
 			path = "Stash Smart InvestingTests";
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				03B37695217D4CAA00C32C3D /* achievements.json */,
+				039B6615217D6C570094A656 /* mock_achievements.json */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -261,6 +267,7 @@
 					};
 					03B3766B217D47C900C32C3D = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 						TestTargetID = 03B37657217D47C900C32C3D;
 					};
 				};
@@ -293,6 +300,7 @@
 				03B37696217D4CAA00C32C3D /* achievements.json in Resources */,
 				03B37663217D47C900C32C3D /* Assets.xcassets in Resources */,
 				03B37661217D47C900C32C3D /* Main.storyboard in Resources */,
+				039B6616217D6C570094A656 /* mock_achievements.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +441,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03B37671217D47CA00C32C3D /* Stash_Smart_InvestingTests.swift in Sources */,
+				03B37699217D52D000C32C3D /* AchievementListInteractorSpec.swift in Sources */,
+				039B6618217D6D560094A656 /* AchievementListPresenterSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,6 +636,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N76RBB796S;
 				INFOPLIST_FILE = "Stash Smart InvestingTests/Info.plist";
@@ -637,6 +647,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.angelchang.Stash-Smart-InvestingTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stash Smart Investing.app/Stash Smart Investing";
@@ -649,6 +660,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N76RBB796S;
 				INFOPLIST_FILE = "Stash Smart InvestingTests/Info.plist";

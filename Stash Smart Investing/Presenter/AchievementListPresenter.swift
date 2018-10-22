@@ -11,7 +11,6 @@ import Foundation
 protocol AchievementListPresenterProtocol: class {
     var view: AchievementListViewProtocol? {get set}
     var interactor: AchievementListInteractorInputProtocol? {get set}
-    var router: AchievementListWireframeProtocol? {get set}
     
     // view -> protocol
     func viewDidLoad()
@@ -27,10 +26,11 @@ class AchievementListPresenter: AchievementListPresenterProtocol {
     
     weak var view: AchievementListViewProtocol?
     var interactor: AchievementListInteractorInputProtocol?
-    var router: AchievementListWireframeProtocol?
-    
+
+    let url = Bundle.main.url(forResource: "achievements", withExtension: "json")!
+
     func viewDidLoad() {
-        interactor?.retrieveAchievementsList()
+        interactor?.retrieveAchievementsList(fromUrl: url)
     }
     
 }
