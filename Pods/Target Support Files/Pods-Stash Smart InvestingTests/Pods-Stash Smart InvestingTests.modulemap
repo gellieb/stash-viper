@@ -1,0 +1,6 @@
+framework module Pods_Stash_Smart_InvestingTests {
+  umbrella header "Pods-Stash Smart InvestingTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
